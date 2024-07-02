@@ -4,11 +4,9 @@ import org.springframework.beans.factory.annotation.Autowired; // Imports the @A
 import org.springframework.http.HttpStatus; // Imports HTTP status codes to be used in HTTP responses.
 import org.springframework.http.ResponseEntity; // Imports the ResponseEntity class for sending HTTP responses.
 import org.springframework.web.bind.annotation.*; // Imports annotations for defining REST endpoints.
-
 import com.IT_JUN_WE_03_team.paf.DTO.CommentDTO; // Imports a Data Transfer Object (DTO) for comment data.
 import com.IT_JUN_WE_03_team.paf.model.Comment; // Imports the Comment model class.
 import com.IT_JUN_WE_03_team.paf.service.CommentService; // Imports the service class for handling comment-related business logic.
-
 import java.util.List; // Imports the List class for storing collections of comments.
 
 @RestController // Indicates that this class is a REST controller.
